@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+(./ex4 $1 > /dev/null)   2>&1 |  grep -v 2103
